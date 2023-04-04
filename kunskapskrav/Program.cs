@@ -8,7 +8,7 @@ while (running == true)
     Console.WriteLine("Skriv ett tal");
     Console.WriteLine("Talet kommer adderas med fem");
     string numTxt = Console.ReadLine();
-    float   numFloat;
+    float numFloat;
     bool attempt = float.TryParse(numTxt, out numFloat);
 
     // Om konverteringen fungerade, skriv ut talet samt talet + 5

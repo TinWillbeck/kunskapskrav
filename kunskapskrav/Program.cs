@@ -5,7 +5,7 @@ bool running = true;
 while (running == true)
 {
     // Ger intruktioner, provat konvertera input till float
-    Console.WriteLine("Skriv ett tal");
+    Console.WriteLine("Skriv ett tal med siffror");
     Console.WriteLine("Talet kommer adderas med fem");
     string numTxt = Console.ReadLine();
     float numFloat;
